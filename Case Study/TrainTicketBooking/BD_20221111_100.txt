@@ -1,0 +1,15 @@
+PNR              : BD_20221111_100
+Train no         : 1001
+Train Name       : Shatabdi
+Express
+Source           : Bangalore
+To               : Delhi
+Travel Date      : 11/11/2022
+
+
+Passengers       : 
+Name 	            Age	  Gender    Fair 
+Poonam Kumari       45      F       1875.0
+Yaqoob Qureshi      34	    M	    2500.0
+
+Total Fare :4375.0
