@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"> 
+               
+     
+
+
+<bean id="u" class="techment.model.University" autowire="byName">
+<property name="noOfStudents" value="700"></property>
+<!--  <property name="department"></property>  object dependency --> 
+</bean>     
+ 
+<bean id="department" class="techment.model.Department">
+<property name="hodName" value="Ramesh"></property>
+</bean>
+ 
+<bean id="dept" class="techment.model.Department">  <!-- autowire byName will check id name to class variable, it must be same  -->
+<property name="hodName" value="Mahesh"></property>
+</bean> 
+ 
+</beans> 
